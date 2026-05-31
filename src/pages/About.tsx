@@ -99,8 +99,8 @@ const About = () => (
     </div>
 
     {/* VISION — Visual Cards Layout */}
-    <section id="our-vision" className="section-std bg-background">
-      <div className="max-w-[1280px] mx-auto">
+    <section id="our-vision" className="px-[5vw] py-9 lg:py-0 lg:h-screen lg:min-h-[660px] lg:flex lg:flex-col lg:justify-center bg-background relative overflow-hidden">
+      <div className="max-w-[1280px] mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
           <ScrollReveal direction="up">
             <div>

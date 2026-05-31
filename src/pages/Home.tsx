@@ -722,9 +722,9 @@ const Home = () => {
       </section>
 
       {/* 6-STEP METHODOLOGY */}
-      <section className="px-[5vw] py-8 sm:py-14 relative overflow-hidden" style={{ background: "hsl(var(--ln-purple) / 0.04)" }}>
+      <section className="px-[5vw] py-8 sm:py-14 lg:py-0 lg:h-screen lg:min-h-[680px] lg:flex lg:flex-col lg:justify-center relative overflow-hidden" style={{ background: "hsl(var(--ln-purple) / 0.04)" }}>
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, hsl(var(--ln-purple)) 1px, transparent 0)", backgroundSize: "40px 40px" }} />
-        <div className="max-w-[1280px] mx-auto relative">
+        <div className="max-w-[1280px] mx-auto relative w-full">
           {/* Header */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 mb-3 sm:mb-4 items-end">
             <ScrollReveal>
@@ -774,7 +774,7 @@ const Home = () => {
                 );
               })}
             </div>
-            <div className="flex items-center justify-between mb-5">
+            <div className="flex items-center justify-between mb-4 lg:mb-4">
               <p className="text-[10.5px] text-muted-foreground/50 italic hidden lg:block">Each stage is powered by AI agents that continuously improve decisions across your logistics network.</p>
               <span className="text-[9px] font-bold tracking-[0.08em] uppercase px-2.5 py-1 rounded-full hidden lg:inline-block" style={{ color: 'hsl(var(--ln-purple))', background: 'hsl(var(--ln-purple) / 0.08)', border: '1px solid hsl(var(--ln-purple) / 0.15)' }}>Typical timeline: 8–12 weeks</span>
             </div>
@@ -820,7 +820,7 @@ const Home = () => {
 
           {/* Bottom CTA + Emotional Payoff */}
           <ScrollReveal direction="up" delay={0.15}>
-            <div className="mt-5 sm:mt-8 text-center">
+            <div className="mt-4 sm:mt-6 text-center">
               <p className="font-display text-[13px] sm:text-[15px] font-bold mb-2 sm:mb-3 text-foreground/80">Transform procurement from a cost center into a strategic advantage.</p>
               <button onClick={() => setOpen(true)} className="btn-primary-ln !px-6 !py-2.5 sm:!px-8 sm:!py-3 !text-[12px] sm:!text-[13px] inline-block cursor-pointer border-none">
                 Get Your 90-Day Optimization Plan →
